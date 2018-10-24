@@ -45,9 +45,35 @@ $var = random_int(1, 10);
 		       background: rgba(0, 0, 0, 0.3);
 		       text-align: left;
 		   }
+		   .hbs .ms700 {
+    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.signUpBox.cta .hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    color: #fff;
+    margin: inherit;
+    pointer-events: initial;
+}
+.signUpBox.cta .sub-title {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    color: #fff;
+    pointer-events: initial;
+}
 	</style>
 </head>
 <body>
+	<div class="signUpBox cta new-hp-signup-box">
+                <h1 class="title ms700 hero-title">The New Way to Design Your Home</h1>
+                <div class="sub-title">Get Inspired. Shop Products. Find Pros.</div>
+            </div>
 	<!--<div class="content-top">This is a place where you can put a header</div>
 	<div class="content">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor tincidunt sapien vel laoreet. Phasellus sit amet justo mollis, eleifend nibh volutpat, sodales libero. Sed sed eros nec lorem facilisis faucibus. Mauris a orci nec nisl elementum tempus at sed quam. Pellentesque lacinia congue massa aliquam ullamcorper. Praesent hendrerit, nibh eu suscipit sagittis, dui libero varius quam, nec placerat sapien sem eget lacus. Quisque pretium tristique quam, in dictum nibh iaculis a. Vestibulum suscipit interdum cursus. Vivamus a lacus porta, convallis arcu ac, congue nisl. Morbi pretium tellus eu sagittis condimentum. Curabitur nibh mi, dictum sit amet nisl a, facilisis maximus lacus. Quisque et tempor dui, non eleifend libero. Maecenas consectetur porttitor massa, sit amet commodo justo congue eu. Donec interdum magna ut orci maximus elementum. Fusce blandit tincidunt arcu et luctus. Vestibulum ac mauris venenatis, tincidunt nunc convallis, feugiat diam.</p>

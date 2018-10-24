@@ -10,8 +10,11 @@ $var = random_int(1, 10);
     <title>My Domain</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<style>
+	/* webfonts.less Tue, 23 Oct 2018 14:19:38 PST */
+@font-face{font-family: 'museo-sans';src: url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot');src: url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot?#iefix') format('embedded-opentype'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.woff') format('woff'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.ttf') format('truetype'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.svg#MuseoSans-700') format('svg');font-weight: 700;font-style: normal}/* houzz-bootstrap.less Tue, 23 Oct 2018 14:19:27 PST */
+
 		   body { 
-		     background: url(/imgs/houzz-<? echo $var;?>.jpeg) no-repeat center center fixed; 
+		     background: url(imgs/houzz-1.jpeg) no-repeat center center fixed; 
 		     -webkit-background-size: cover;
 		     -moz-background-size: cover;
 		     -o-background-size: cover;
@@ -45,11 +48,27 @@ $var = random_int(1, 10);
 		       background: rgba(0, 0, 0, 0.3);
 		       text-align: left;
 		   }
-		   .hbs .ms700 {
+		   body {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+		   .ms700 {
     font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
-.signUpBox.cta .hero-title {
+h1{
+    margin: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    text-rendering: optimizelegibility;
+    font-size: 14px;
+}
+.hero-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.1;
@@ -58,7 +77,7 @@ $var = random_int(1, 10);
     margin: inherit;
     pointer-events: initial;
 }
-.signUpBox.cta .sub-title {
+.sub-title {
     margin-top: 8px;
     font-size: 24px;
     font-weight: normal;
@@ -66,6 +85,17 @@ $var = random_int(1, 10);
     letter-spacing: 0px;
     color: #fff;
     pointer-events: initial;
+}
+.signUpBox.cta {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    cursor: default;
+    pointer-events: none;
+    margin-top:200px;
 }
 	</style>
 </head>

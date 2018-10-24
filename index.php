@@ -14,7 +14,7 @@ $var = random_int(1, 10);
 @font-face{font-family: 'museo-sans';src: url('fonts/MuseoSans_700.eot');src: url('fonts/MuseoSans_700.eot?#iefix') format('embedded-opentype'), url('fonts/MuseoSans_700.woff') format('woff'), url('fonts/MuseoSans_700.ttf') format('truetype'), url('fonts/MuseoSans_700.svg#MuseoSans-700') format('svg');font-weight: 700;font-style: normal}/* houzz-bootstrap.less Tue, 23 Oct 2018 14:19:27 PST */
 
 		   body { 
-		     background: url(imgs/houzz-1.jpeg) no-repeat center center fixed; 
+		     background: url(imgs/houzz-<? echo $var;?>.jpeg) no-repeat center center fixed; 
 		     -webkit-background-size: cover;
 		     -moz-background-size: cover;
 		     -o-background-size: cover;

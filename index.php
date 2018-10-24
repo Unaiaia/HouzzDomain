@@ -11,7 +11,7 @@ $var = random_int(1, 10);
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	/* webfonts.less Tue, 23 Oct 2018 14:19:38 PST */
-@font-face{font-family: 'museo-sans';src: url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot');src: url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot?#iefix') format('embedded-opentype'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.woff') format('woff'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.ttf') format('truetype'), url('http://st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.svg#MuseoSans-700') format('svg');font-weight: 700;font-style: normal}/* houzz-bootstrap.less Tue, 23 Oct 2018 14:19:27 PST */
+@font-face{font-family: 'museo-sans';src: url('fonts/MuseoSans_700.eot');src: url('fonts/MuseoSans_700.eot?#iefix') format('embedded-opentype'), url('fonts/MuseoSans_700.woff') format('woff'), url('fonts/MuseoSans_700.ttf') format('truetype'), url('fonts/MuseoSans_700.svg#MuseoSans-700') format('svg');font-weight: 700;font-style: normal}/* houzz-bootstrap.less Tue, 23 Oct 2018 14:19:27 PST */
 
 		   body { 
 		     background: url(imgs/houzz-1.jpeg) no-repeat center center fixed; 

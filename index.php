@@ -97,9 +97,21 @@ h1{
     pointer-events: none;
     margin-top:200px;
 }
+.trackMe
+{
+	background: url("gradient.png") top left repeat-x;
+	z-index:-1;
+	display:block;
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width: 100%;
+}
 	</style>
 </head>
 <body>
+	<div class="trackMe" id="theaterCover" compid="theaterCover"></div>
 	<div class="signUpBox cta new-hp-signup-box">
                 <h1 class="title ms700 hero-title">The New Way to Design Your Home</h1>
                 <div class="sub-title">Get Inspired. Shop Products. Find Pros.</div>

@@ -1,6 +1,6 @@
 <?php 
 
-$var = random_int(1, 7);
+$var = random_int(1, 17);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

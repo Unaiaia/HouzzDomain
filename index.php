@@ -99,7 +99,8 @@ h1{
 }
 .gradient
 {
-	background: url("gradient.png") top left repeat-x;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.3) 65%, rgba(255,255,255,0));
+}
 }
 .trackMe
 {
@@ -109,7 +110,7 @@ h1{
 	position: absolute;
 	top:0;
 	left:0;
-	height:100%;
+	height: 700px;
 	width: 100%;
 }
 	</style>

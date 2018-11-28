@@ -95,11 +95,15 @@ h1{
     text-align: center;
     cursor: default;
     pointer-events: none;
-    margin-top:125px;
+    margin-top:200px;
+}
+.gradient
+{
+	background: url("gradient.png") top left repeat-x;
 }
 .trackMe
 {
-	background: url("gradient.png") top left repeat-x;
+	
 	z-index:-1;
 	display:block;
 	position: absolute;
@@ -111,7 +115,7 @@ h1{
 	</style>
 </head>
 <body>
-	<div class="trackMe" id="theaterCover" compid="theaterCover"></div>
+	<div class="trackMe <?if($var<=10){echo "gradient";}?>" id="theaterCover" compid="theaterCover"></div>
 	<div class="signUpBox cta new-hp-signup-box">
                 <h1 class="title ms700 hero-title">The New Way to Design Your Home</h1>
                 <div class="sub-title">Get Inspired. Shop Products. Find Pros.</div>

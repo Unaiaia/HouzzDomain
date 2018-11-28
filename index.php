@@ -101,10 +101,8 @@ h1{
 {
     background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.3) 65%, rgba(255,255,255,0));
 }
-}
 .trackMe
 {
-	
 	z-index:-1;
 	display:block;
 	position: absolute;
